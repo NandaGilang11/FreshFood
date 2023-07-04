@@ -34,3 +34,5 @@ Route::post('profile', [App\Http\Controllers\ProfileController::class, 'update']
 
 Route::get('history', [App\Http\Controllers\HistoryController::class, 'index']);
 Route::get('history/{id}', [App\Http\Controllers\HistoryController::class, 'detail']);
+
+Route::get('about', [App\Http\Controllers\AboutController::class, 'index']);

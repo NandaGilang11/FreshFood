@@ -64,7 +64,7 @@
                             <a class="nav-link" href="{{ url('produk') }}">Produk</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="{{ url('about') }}">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
