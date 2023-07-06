@@ -17,7 +17,7 @@
                 </div>
                 <div class="sci">
                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/nanda_gilangg/?hl=id"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nanda_gilangg/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="sci">
                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/herifka_rey/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="sci">
                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/yogs.2002/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
             </div>
