@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
 
             <div class="col-md-12 mb-5">
-                <img src="{{ url('images/logo.png') }}" class="rounded mx-auto d-block" width="400" alt="">
+                <img src="{{ url('images/fresh-food-logo.png') }}" class="rounded mx-auto d-block img-fluid" width="400" alt="">
             </div>
             <h2>Best Seller</h2>
             @foreach ($produks as $produk)

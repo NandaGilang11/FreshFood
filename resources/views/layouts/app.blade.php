@@ -19,27 +19,31 @@
 
     <style>
     /* Inline CSS */
+    body {
+    background-color: #f2f2f2;
+    }
+
     .footer {
-      background-color: #f2f2f2;
-      padding: 20px;
-      text-align: center;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      margin-top: 400px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        margin-top: 400px;
     }
-    
+
     .footer p {
-      margin: 0;
-      color: #888;
+        margin: 0;
+        color: #888;
     }
-    
+
     .footer a {
-      color: #555;
-      text-decoration: none;
+        color: #555;
+        text-decoration: none;
     }
-    
+
     .footer a:hover {
-      text-decoration: underline;
+        text-decoration: underline;
     }
   </style>
 </head>
@@ -49,7 +53,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    <img src="{{ url('images/logo2.png') }}" width="130" alt="">
+                    <img src="{{ url('images/fresh-food-logo2.png') }}" width="130" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -67,7 +71,10 @@
                             <a class="nav-link" href="{{ url('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="{{ url('contact') }}">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('team') }}">Team</a>
                         </li>
                     </ul>
 
@@ -140,6 +147,7 @@
     </div>
     @include('sweetalert::alert')
     @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </body>
 
 

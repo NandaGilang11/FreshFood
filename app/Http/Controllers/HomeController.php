@@ -27,4 +27,19 @@ class HomeController extends Controller
         $produks = Produk::paginate(3);
         return view('home', compact('produks'));
     }
+
+    public function about()
+    {
+        return view('about.index');
+    }
+
+    public function contact()
+    {
+        return view('contact.index');
+    }
+
+    public function team()
+    {
+        return view('team.index');
+    }
 }

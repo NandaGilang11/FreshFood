@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="{{ url('images/produk') }}/{{ $produk->gambar }}" class="rounded mx-auto d-block" width="600" alt="">
+                                <img src="{{ url('images/produk') }}/{{ $produk->gambar }}" class="rounded mx-auto d-block img-fluid" width="600" alt="">
                             </div>
                             <div class="col-md-6 mt-5">
                                 <h2>{{ $produk->nama_produk }}</h2>

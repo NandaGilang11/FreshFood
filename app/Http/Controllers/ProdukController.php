@@ -12,9 +12,13 @@ class ProdukController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
+    public function index(Request $request)
     {
-        $produks = Produk::paginate(9);
+        if ($request->has('search')) {
+            $produks = Produk::where('nama_produk', 'LIKE', '%' . $request->search . '%')->get();
+        } else {
+            $produks = Produk::paginate(9);
+        }
         return view('produk.index', compact('produks'));
     }
 }

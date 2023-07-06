@@ -7,10 +7,13 @@
         </div>
         <div class="row justify-content-center">
             <h2 class="mt-3"><strong>Produk</strong> Kami</h2>
-            <div class="input-group mt-1 mb-3">
-                <span class="input-group-text" id="basic-addon1"><i class="fa  fa-search"></i></span>
-                <input type="search" id="search_produk" class="form-control" placeholder="Cari Produk" aria-label="Username" aria-describedby="basic-addon1">
-            </div>
+            <form action="{{ url('produk') }}" method="get">
+                <div class="input-group mt-1 mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa  fa-search"></i></span>
+                    <input type="search" name="search" id="search_produk" class="form-control" placeholder="Cari Produk" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </form>
+            
             @foreach ($produks as $produk)
                 <div class="col-md-4 mt-4">
                     <div class="card">

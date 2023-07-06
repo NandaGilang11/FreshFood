@@ -20,6 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('about', [App\Http\Controllers\HomeController::class, 'about']);
+Route::get('contact', [App\Http\Controllers\HomeController::class, 'contact']);
+Route::get('team', [App\Http\Controllers\HomeController::class, 'team']);
 
 Route::get('/produk', [App\Http\Controllers\ProdukController::class, 'index']);
 
@@ -34,5 +37,3 @@ Route::post('profile', [App\Http\Controllers\ProfileController::class, 'update']
 
 Route::get('history', [App\Http\Controllers\HistoryController::class, 'index']);
 Route::get('history/{id}', [App\Http\Controllers\HistoryController::class, 'detail']);
-
-Route::get('about', [App\Http\Controllers\AboutController::class, 'index']);
