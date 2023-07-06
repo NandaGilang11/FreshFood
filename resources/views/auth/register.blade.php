@@ -4,6 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            <img src="{{ url('images/fresh-food-logo.png') }}" class="rounded mx-auto d-block" width="300" alt="">
             <div class="card">
                 <div class="card-header">{{ __('Register') }}</div>
 

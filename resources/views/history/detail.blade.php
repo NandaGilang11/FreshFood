@@ -45,7 +45,10 @@
                             <tr>
                                 <td colspan="4" align="right"><strong>Total Pembayaran :</strong></td>
                                 <td><strong>Rp. {{ number_format($pesanan->jumlah_harga) }}</strong></td>
-                                <td><span></span></td>
+                                <td><a href="#" class="btn btn-primary">
+                                        <i class="fa fa-credit-card"></i> Bayar
+                                    </a>
+                                </td>
                             </tr>
                         </tbody>
                         </table>

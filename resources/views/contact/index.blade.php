@@ -23,8 +23,8 @@
         <div class="email details">
           <i class="fa fa-envelope"></i>
           <div class="topic">Email</div>
-          <div class="text-one">codinglab@gmail.com</div>
-          <div class="text-two">info.codinglab@gmail.com</div>
+          <div class="text-one">fresh_food_official@gmail.com</div>
+          <div class="text-two">fresh_food@gmail.com</div>
         </div>
       </div>
       <div class="right-side">
@@ -40,9 +40,9 @@
         <div class="input-box message-box">
           <textarea placeholder="Kirim Pesan"></textarea>
         </div>
-        <div class="button">
-          <input type="button" value="Send Now" >
-        </div>
+        <a href="#" class="btn btn-success mt-2">
+          <i class="fa fa-paper-plane"></i> Kirim
+        </a>
       </form>
     </div>
     </div>

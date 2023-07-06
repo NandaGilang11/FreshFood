@@ -17,7 +17,7 @@ class ProdukController extends Controller
         if ($request->has('search')) {
             $produks = Produk::where('nama_produk', 'LIKE', '%' . $request->search . '%')->get();
         } else {
-            $produks = Produk::paginate(9);
+            $produks = Produk::paginate(30);
         }
         return view('produk.index', compact('produks'));
     }

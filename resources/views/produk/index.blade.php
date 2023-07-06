@@ -15,7 +15,7 @@
             </form>
             
             @foreach ($produks as $produk)
-                <div class="col-md-4 mt-4">
+                <div class="col-md-3 mt-4">
                     <div class="card">
                         <img src="{{ url('images/produk') }}/{{ $produk->gambar }}" class="card-img-top" alt="...">
                         <div class="card-body">
