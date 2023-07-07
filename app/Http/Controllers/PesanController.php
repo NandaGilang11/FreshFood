@@ -114,13 +114,13 @@ class PesanController extends Controller
 
         if(empty($user->alamat))
         {
-            Alert::error('Error', 'Identitas Belum Lengkap');
+            Alert::error('Check Out Gagal', 'Identitas Belum Lengkap');
             return redirect('profile');
         }
 
         if(empty($user->nohp))
         {
-            Alert::error('Error', 'Identitas Belum Lengkap');
+            Alert::error('Check Out Gagal', 'Identitas Belum Lengkap');
             return redirect('profile');
         }
 
